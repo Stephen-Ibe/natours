@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Corporate Website UI",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KalsonSaint/natours.git"
+  },
+  "author": "kalson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KalsonSaint/natours/issues"
+  },
+  "homepage": "https://github.com/KalsonSaint/natours#readme"
+}
