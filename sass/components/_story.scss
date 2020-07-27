@@ -7,7 +7,7 @@
     padding: 6rem;
     padding-left: 9rem;
     font-size: $default-font-size;
-    transform: skew(-12deg);
+    transform: skewX(-12deg);
 
     &__shape {
         width: 15rem;
@@ -23,6 +23,7 @@
 
     &__img{
         width: 100%;
+        transform: translateX(-4rem);
     }
 
     &__text{
@@ -30,7 +31,7 @@
     }
 
     &__caption{
-        position: relative;
+        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, 20%);
@@ -40,6 +41,7 @@
         text-align: center;
         opacity: 0;
         transition: all .5s;
+        backface-visibility: hidden;
     }
     
     &:hover &__caption{
